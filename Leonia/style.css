@@ -3,6 +3,7 @@
     width:100px;
     margin: -20px -50px;
     position:relative;
+    background: #C08497;
     top:10%;
     left:50%;
 }
@@ -23,7 +24,7 @@ body {
       position: absolute;
       width: 100%;
       height: 100vh;
-      background: url(temp.gif) no-repeat 50% 50%;
+      background: url(giphy.gif) no-repeat 50% 50%;
       background-size: cover;
       animation: fadeOut 5s linear forwards;
       opacity: 1;
@@ -78,7 +79,7 @@ body {
       position: absolute;
       width: 0%;
       height: 100vh;
-      background: #B08D74;
+      background:  #7A8482;;
       animation: go-left 3.2s cubic-bezier(.74, .06, .4, .92) forwards;
       animation-delay: 3s;
 }
@@ -222,7 +223,7 @@ button {
       padding: 16px 40px;
       letter-spacing: 2px;
       text-transform: uppercase;
-      background: #B08D74;
+      background: #7A8482;
       color: #fff;
 }
 
